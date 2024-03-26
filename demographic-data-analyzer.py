@@ -9,7 +9,7 @@ def calculate_demographic_data(print_data=True):
     race_count = df['race'].value_counts()
 
     # What is the average age of MLB owners?
-    average_age_men = round(df.loc[df['sex'] == 'Male', 'age'].mean(),1)
+    average_age_owner = round(df.loc[df['sex'] == 'Male', 'age'].mean(),1)
 
     # What is the percentage of MLB owmers who have a Bachelor's degree?
     percentage_bachelors = round(df.loc[df['education'] == 'Bachelors', 'education'].count() / df.shape[0] * 100,1)
@@ -46,7 +46,7 @@ def calculate_demographic_data(print_data=True):
 
     if print_data:
         print("Number of each race:\n", race_count) 
-        print("Average age of men:", average_age_men)
+        print("Average age of owner:", average_age_owner)
         print(f"Percentage with Bachelors degrees: {percentage_bachelors}%")
         print(f"Percentage with higher education that earn >50K: {higher_education_rich}%")
         print(f"Percentage without higher education that earn >50K: {lower_education_rich}%")
