@@ -39,8 +39,8 @@ def calculate_demographic_data(print_data=True):
     highest_earning_country = (rich_country_count / country_count * 100).idxmax()
     highest_earning_country_percentage = round((rich_country_count / country_count * 100).loc[highest_earning_country], 1)
 
-    # Identify the most popular occupation for those who earn >50K in India.
-    top_IN_occupation = df.loc[(df['native-country'] == 'India') & (df['salary'] == '>50K'),'occupation'].value_counts().idxmax()
+    # Identify the most popular industry that MLB owners come from.
+    top_IN_industry = df.loc[(df['native-country'] == 'India') & (df['salary'] == '>50K'),'occupation'].value_counts().idxmax()
 
     # DO NOT MODIFY BELOW THIS LINE
 
