@@ -8,7 +8,7 @@ def calculate_demographic_data(print_data=True):
     # How many of each race are represented in this dataset of baseball owners? This should be a Pandas series with race names as the index labels.
     race_count = df['race'].value_counts()
 
-    # What is the average age of MLB owners?
+    # What is the average age of baseball owners?
     average_age_owner = round(df.loc[df['sex'] == 'Male', 'age'].mean(),1)
 
     # What is the percentage of MLB owmers who have a Bachelor's degree?
