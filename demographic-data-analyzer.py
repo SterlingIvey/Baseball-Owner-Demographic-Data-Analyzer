@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-def calculate_demographic_data(print_data=True):
+def calculate_baseball_owners_data(print_data=True):
     # Read data from file
     df = pd.read_csv('baseball.owners.data.csv')
 
