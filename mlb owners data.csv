@@ -21,7 +21,7 @@ age,industry,education,race,sex,net worth,name,team,league,division,year bought,
 na,telecommunications,na,na,na,rogers communications,toronto blue jays,al,east,2000," 2,100,000,000.00 "
 88,real estate,professional,white,male,,jerry reinsdorf,chicago white sox,al,central,,
 93,inheritance,professional,white,male,,larry dolan,cleveland guardians,al,central,,
-na,,,,,,ilitch family,detroit tigers,al,central,,
+na,,,,,,ilitch family,detroit tigers,al,central,," 1,450,000,000 "
 68,energy,bachelors,white,male,,john sherman,kansas city royals,al,central,," 1,200,000,000 "
 70,inheritance,,white,male,,jim pohlad,minnesota twins,al,central,," 1,390,000,000 "
 70,energy,bachelors,white,male,,jim crane,houston astros,al,west,," 2,250,000,000 "
