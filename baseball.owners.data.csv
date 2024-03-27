@@ -23,7 +23,7 @@ age,industry,education,race,sex,net worth,name,team,league,division,year bought,
 93,inheritance,professional,white,male," 4,600,000,000.00 ",larry dolan,cleveland guardians,al,central,2000," 1,300,000,000.00 "
 91,consumer staples,none,white,female," 3,800,000,000.00 ",ilitch family,detroit tigers,al,central,2017," 1,450,000,000.00 "
 68,energy,bachelors,white,male," 800,000,000.00 ",john sherman,kansas city royals,al,central,2019," 1,200,000,000.00 "
-70,inheritance,,white,male,,jim pohlad,minnesota twins,al,central,," 1,390,000,000.00 "
+70,inheritance,,white,male,,pohlad family,minnesota twins,al,central,," 1,390,000,000.00 "
 70,energy,bachelors,white,male," 2,400,000,000.00 ",jim crane,houston astros,al,west,2003," 2,250,000,000.00 "
 77,entertainment,bachelors,latin american,male," 4,900,000,000.00 ",arte moreno,los angeles angels,al,west,2003," 2,700,000,000.00 "
 64,finance,professional,white,male," 6,000,000,000.00 ",guggenheim baseball management(mark walter),los angeles dodgers,nl,west,2012," 4,800,000,000.00 "
