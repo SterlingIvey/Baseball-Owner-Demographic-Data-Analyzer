@@ -21,15 +21,6 @@ def calculate_baseball_owners_data(print_data=True):
     df['net worth'] = df['net worth'].replace('[\$,]', '', regex=True).astype(float)
     average_net_worth = df['net worth'].mean()
 
-    # What is the minimum number of hours a person works per week (hours-per-week feature)?
-    min_work_hours = df['hours-per-week'].min()
-
-    # What country has the highest percentage of people that earn >50K?
-    country_count = df['native-country'].value_counts() # Total people per country
-    rich_country_count = df[df['salary'] == '>50K']['native-country'].value_counts() # Rich people per country
-    highest_earning_country = (rich_country_count / country_count * 100).idxmax()
-    highest_earning_country_percentage = round((rich_country_count / country_count * 100).loc[highest_earning_country], 1)
-
     # Identify the most popular industry that MLB owners come from.
     top_IN_industry = df.loc[(df['native-country'] == 'India') & (df['salary'] == '>50K'),'occupation'].value_counts().idxmax()
 
