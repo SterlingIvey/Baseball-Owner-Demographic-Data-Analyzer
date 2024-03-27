@@ -1,6 +1,4 @@
 import pandas as pd
-import matplotlib.pyplot as plt
-import numpy as np
 
 
 def calculate_demographic_data(print_data=True):
