@@ -32,28 +32,19 @@ def calculate_baseball_owners_data(print_data=True):
 
     # DO NOT MODIFY BELOW THIS LINE
 
-    if print_data:
+       if print_data:
         print("Number of each race:\n", race_count) 
         print("Average age of owner:", average_age_owner)
         print(f"Percentage with Bachelors degrees: {percentage_bachelors}%")
-        print(f"Most popular industry among owners:", top_industry")
-        print(f"Average net worth of owners: $ {lower_education_rich}%")
-        print(f"Min work time: {min_work_hours} hours/week")
-        print(f"Percentage of rich among those who work fewest hours: {rich_percentage}%")
-        print("Country with highest percentage of rich:", highest_earning_country)
-        print(f"Highest percentage of rich people in country: {highest_earning_country_percentage}%")
-        print("Top occupations in India:", top_IN_occupation)
+        print("Most popular industry among owners:", top_industry)
+        print("Average net worth of owners: ${:,.2f}".format(average_net_worth))
+        print("Average value of teams: ${:,.2f}".format(average_team_value))
 
     return {
         'race_count': race_count,
-        'average_age_men': average_age_men,
+        'average_age_owner': average_age_owner,
         'percentage_bachelors': percentage_bachelors,
-        'higher_education_rich': higher_education_rich,
-        'lower_education_rich': lower_education_rich,
-        'min_work_hours': min_work_hours,
-        'rich_percentage': rich_percentage,
-        'highest_earning_country': highest_earning_country,
-        'highest_earning_country_percentage':
-        'highest_earning_country_percentage,
-         top_IN_occupation': top_IN_occupation
+        'top_industry': top_industry,
+        'average_net_worth': average_net_worth,
+        'average_team_value': average_team_value
     }
