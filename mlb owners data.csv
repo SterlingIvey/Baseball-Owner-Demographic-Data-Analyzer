@@ -2,7 +2,7 @@ age,industry,education,race,sex,net worth,name,team,league,division,year bought,
 67,finance,bachelors,white,male," 13,900,000,000.00 ",steven cohen,new york mets,nl,east,2020," 2,900,000,000.00 "
 83,telecommunications ,doctorate,white,male," 8,890,000,000.00 ",john malone,atlanta braves,nl,east,2007," 2,600,000,000.00 "
 75,finance,professional,white,male," 500,000,000.00 ",bruce sherman,miami marlins,nl,east,2017," 1,000,000,000.00 "
-,inheritance,professional,white,male," 3,400,000,000.00 ",john middleton,philadelphia phillies,nl,east,2016," 2,575,000,000.00 "
+69,inheritance,professional,white,male," 3,400,000,000.00 ",john middleton,philadelphia phillies,nl,east,2016," 2,575,000,000.00 "
 70,inheritance,bachelors,white,male," 1,500,000,000.00 ",mark lerner,washington nationals,nl,east,2006," 2,000,000,000.00 "
 57,inheritance,professional,white,male," 900,000,000.00 ",thomas ricketts,chicago cubs,nl,central,2009," 4,100,000,000.00 "
 82,,professional,white,male," 400,000,000.00 ",robert castellini,cincinnati reds,nl,central,2006," 1,190,000,000.00 "
