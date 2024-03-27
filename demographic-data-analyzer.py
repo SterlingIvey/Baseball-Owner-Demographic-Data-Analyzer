@@ -11,8 +11,11 @@ def calculate_baseball_owners_data(print_data=True):
     # What is the average age of baseball owners?
     average_age_owner = round(df['age'].mean() * 100, 1)
 
-    # What percentage of baseball owmers have a Bachelor's degree?
+    # What percentage of baseball owners have a Bachelor's degree?
     percentage_bachelors = round(df.loc[df['education'] == 'Bachelors', 'education'].count() / df.shape[0] * 100,1)
+    
+    # What is the most popular industry among baseball owners?
+    top_industry = df['industry'].value_counts
 
     # What percentage of people with advanced education (`Bachelors`, `Masters`, or `Doctorate`) make more than 50K?
     # What percentage of people without advanced education make more than 50K?
