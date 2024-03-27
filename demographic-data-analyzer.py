@@ -23,6 +23,11 @@ def calculate_baseball_owners_data(print_data=True):
 
     # Identify the most popular industry that MLB owners come from.
     top_IN_industry = df.loc[(df['native-country'] == 'India') & (df['salary'] == '>50K'),'occupation'].value_counts().idxmax()
+    
+    # What is the average value of the teams owned?
+    df['franchise value'] = df['franchise value'].replace('[\$,]', '', regex=True.astype(float)
+    average_team_value = df['franchise value'].mean()
+
 
     # DO NOT MODIFY BELOW THIS LINE
 
