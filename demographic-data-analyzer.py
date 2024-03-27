@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 
 def calculate_baseball_owners_data(print_data=True):
