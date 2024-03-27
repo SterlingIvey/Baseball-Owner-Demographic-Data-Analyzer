@@ -13,7 +13,7 @@ def calculate_demographic_data(print_data=True):
     # What is the average age of baseball owners?
     average_age_owner = round(df.loc[df['sex'] == 'Male', 'age'].mean(),1)
 
-    # What is the percentage of MLB owmers who have a Bachelor's degree?
+    # What is the percentage of baseball owmers who have a Bachelor's degree?
     percentage_bachelors = round(df.loc[df['education'] == 'Bachelors', 'education'].count() / df.shape[0] * 100,1)
 
     # What percentage of people with advanced education (`Bachelors`, `Masters`, or `Doctorate`) make more than 50K?
