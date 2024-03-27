@@ -16,6 +16,10 @@ def calculate_baseball_owners_data(print_data=True):
     
     # What is the most popular industry among baseball owners?
     top_industry = df['industry'].value_counts().idxmax()
+    
+    # What is the average net worth of baseball owners?
+    df['net worth'] = df['net worth'].replace('[\$,]', '', regex=True).astype(float)
+    average_net_worth = df['net worth'].mean()
 
     # with and without `Bachelors`, `Masters`, or `Doctorate`
     higher_education = df.loc[df.education.isin(['Bachelors', 'Masters', 'Doctorate'])]
