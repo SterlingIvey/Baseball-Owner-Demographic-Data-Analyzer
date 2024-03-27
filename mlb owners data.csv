@@ -1,1 +1,31 @@
-Raw demographic and financial data for baseball owners.
+age,industry,education,race,sex,net worth,name,team,league,division,year bought,franchise value
+67,finance,bachelors,white,male," 13,900,000,000.00 ",steven cohen,new york mets,nl,east,2020," 2,900,000,000.00 "
+83,telecommunications ,doctorate,white,male," 8,890,000,000.00 ",john malone,atlanta braves,nl,east,2007," 2,600,000,000.00 "
+75,finance,professional,white,male," 500,000,000.00 ",bruce sherman,miami marlins,nl,east,2017," 1,000,000,000.00 "
+,inheritance,professional,white,male," 3,400,000,000.00 ",john middleton,philadelphia phillies,nl,east,2016," 2,575,000,000.00 "
+70,inheritance,bachelors,white,male," 1,500,000,000.00 ",mark lerner,washington nationals,nl,east,2006," 2,000,000,000.00 "
+57,inheritance,professional,white,male," 900,000,000.00 ",thomas ricketts,chicago cubs,nl,central,2009," 4,100,000,000.00 "
+82,,professional,white,male," 400,000,000.00 ",robert castellini,cincinnati reds,nl,central,2006," 1,190,000,000.00 "
+66,finance,professional,white,male," 700,000,000.00 ",mark attanasio,milwaukee brewers,nl,central,2005," 1,605,000,000.00 "
+61,,bachelors,,,,,,,,,
+82,inheritance,professional,white,male," 4,000,000,000.00 ",william dewitt jr,st louis cardinals,nl,central,1995," 2,550,000,000.00 "
+80,technology,bachelors,white,male," 1,000,000,000.00 ",ken kendrick,arizona diamondbacks,nl,west,2004," 1,380,000,000.00 "
+74,inheritance,bachelors,white,male," 700,000,000.00 ",charlie monfort,colorado rockies,nl,west,2005," 1,475,000,000.00 "
+79,inheritance,bachelors,white,male," 700,000,000.00 ",dick monfort,colorado rockies,nl,west,2005," 1,475,000,000.00 "
+63,finance,professional,white,male," 3,000,000,000.00 ",peter seidler,san diego padres,nl,west,2020," 1,750,000,000.00 "
+91,inheritance,bachelors,white,male," 5,270,000,000.00 ",charles johnson,san francisco giants,nl,west,1992," 3,700,000,000.00 "
+56,inheritance,,,,,,,,,,
+74,finance,none,white,male," 5,130,000,000.00 ",john henry,boston red sox,al,east,2002," 4,500,000,000.00 "
+54,inheritance,professional,white,male," 1,520,000,000.00 ",hal steinbrenner,new york yankees,al,east,2010," 7,100,000,000.00 "
+64,finance,bachelors,white,male," 800,000,000.00 ",stuart sternberg,tampa bay rays,al,east,2005," 1,250,000,000.00 "
+,telecommunications ,,,,,rogers communications,toronto blue jays,al,east,,
+88,real estate,professional,white,male,,jerry reinsdorf,chicago white sox,al,central,,
+93,inheritance,professional,white,male,,larry dolan,cleveland indians,al,central,,
+,,,,,,ilitch family,detroit tigers,al,central,,
+68,energy,bachelors,white,male,,john sherman,kansas city royals,al,central,,
+70,inheritance,,white,male,,jim pohlad,minnesota twins,al,central,,
+70,energy,bachelors,white,male,,jim crane,houston astros,al,west,,
+77,entertainment,bachelors,latin american,male,,arte moreno,los angeles angels,al,west,,
+,,,,,,guggenheim baseball management,los angeles dodgers,nl,west,,
+62,inheritance,professional,white,male,,john fisher,oakland athletics,al,west,,
+68,telecommunications,professional,white,male,,john stanton,seattle mariners,al,west,,
