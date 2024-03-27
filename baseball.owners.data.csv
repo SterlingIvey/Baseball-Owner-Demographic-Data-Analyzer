@@ -18,7 +18,7 @@ age,industry,education,race,sex,net worth,name,team,league,division,year bought,
 74,finance,none,white,male," 5,130,000,000.00 ",john henry,boston red sox,al,east,2002," 4,500,000,000.00 "
 54,inheritance,professional,white,male," 1,520,000,000.00 ",hal steinbrenner,new york yankees,al,east,2010," 7,100,000,000.00 "
 64,finance,bachelors,white,male," 800,000,000.00 ",stuart sternberg,tampa bay rays,al,east,2005," 1,250,000,000.00 "
-54,telecommunications,white,male," 11,500,000,000 ",rogers communications,toronto blue jays,al,east,2000," 2,100,000,000.00 "
+54,telecommunications,bachelors,white,male," 11,500,000,000 ",rogers communications,toronto blue jays,al,east,2000," 2,100,000,000.00 "
 88,real estate,professional,white,male,,jerry reinsdorf,chicago white sox,al,central,1981," 2,050,000,000 "
 93,inheritance,professional,white,male,,larry dolan,cleveland guardians,al,central,2000," 1,300,000,000 "
 91,consumer staples,none,white,female," 3,800,000,000 ",ilitch family,detroit tigers,al,central,2017," 1,450,000,000 "
