@@ -7,7 +7,7 @@ age,industry,education,race,sex,net worth,name,team,league,division,year bought,
 57,inheritance,professional,white,male," 900,000,000.00 ",thomas ricketts,chicago cubs,nl,central,2009," 4,100,000,000.00 "
 82,,professional,white,male," 400,000,000.00 ",robert castellini,cincinnati reds,nl,central,2006," 1,190,000,000.00 "
 66,finance,professional,white,male," 700,000,000.00 ",mark attanasio,milwaukee brewers,nl,central,2005," 1,605,000,000.00 "
-61,,bachelors,,,,,,,,,
+61,,bachelors,,,,pittsburgh pirates,,,,,
 82,inheritance,professional,white,male," 4,000,000,000.00 ",william dewitt jr,st louis cardinals,nl,central,1995," 2,550,000,000.00 "
 80,technology,bachelors,white,male," 1,000,000,000.00 ",ken kendrick,arizona diamondbacks,nl,west,2004," 1,380,000,000.00 "
 74,inheritance,bachelors,white,male," 700,000,000.00 ",charlie monfort,colorado rockies,nl,west,2005," 1,475,000,000.00 "
