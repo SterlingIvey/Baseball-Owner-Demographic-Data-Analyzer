@@ -36,7 +36,7 @@ def calculate_baseball_owners_data(print_data=True):
         print("Average age of owner:", average_age_owner)
         print(f"Percentage with Bachelors degrees: {percentage_bachelors}%")
         print(f"Most popular industry among owners:", top_industry")
-        print(f"Percentage without higher education that earn >50K: {lower_education_rich}%")
+        print(f"Average net worth of owners: $ {lower_education_rich}%")
         print(f"Min work time: {min_work_hours} hours/week")
         print(f"Percentage of rich among those who work fewest hours: {rich_percentage}%")
         print("Country with highest percentage of rich:", highest_earning_country)
