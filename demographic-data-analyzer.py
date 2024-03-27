@@ -17,9 +17,6 @@ def calculate_baseball_owners_data(print_data=True):
     # What is the most popular industry among baseball owners?
     top_industry = df['industry'].value_counts().idxmax()
 
-    # What percentage of people with advanced education (`Bachelors`, `Masters`, or `Doctorate`) make more than 50K?
-    # What percentage of people without advanced education make more than 50K?
-
     # with and without `Bachelors`, `Masters`, or `Doctorate`
     higher_education = df.loc[df.education.isin(['Bachelors', 'Masters', 'Doctorate'])]
     lower_education = df.loc[~df.education.isin(['Bachelors', 'Masters', 'Doctorate'])]
