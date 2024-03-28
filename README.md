@@ -1,9 +1,9 @@
-<h1>**Baseball_Billions**</h1>
+<h1>Baseball_Billions</h1>
 
 Welcome to **Baseball_Billions**: Analyzing the Financial Scorecard of Baseball Team Owners.
 
 
-**Overview**
+<h2>Overview</h2>
 
 This project started out as the demographic data analyzer project from the Data Analysis with Python certification from freecodecamp. I copied the main code that made the tests pass, but now that I have it in GitHub I'm turning it into a database for analyzing the demographic info of baseball owners. My inspiration is the Bloomberg Billionaires Index, which updates the projected net worth of the world's billionaires based on publicly available information. Variables for ownership include age, industry where they made enough of a fortune to purchase a baseball team (or inheritance if they either inherited a team or inherited the wealth it took to purchase a team), educational background (bachelors degree, masters degree, professional degree [MBA, JD, etc.], doctorate, or no degree), race (very broadly defined), sex (very narrowly defined), net worth, team, league, division, year bought, and value of the franchise.
 
