@@ -22,7 +22,7 @@ def calculate_baseball_owners_data(print_data=True):
     top_industry = df['industry'].value_counts().idxmax()
     
     # What is the average net worth of baseball owners?
-    average_net_worth = df['net worth'].mean()
+    average_net_worth = df['net_worth'].mean()
     
     # What is the average value of the teams owned?
     df['franchise_value'] = df['franchise_value'].replace('[\$,]', '', regex=True.astype(float)
