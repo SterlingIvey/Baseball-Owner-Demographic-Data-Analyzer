@@ -1,5 +1,5 @@
 <img src="https://img.shields.io/github/license/SterlingIvey/Baseball_Billions">
-<img [src="https://www.python.org/static/community_logos/python-powered-h.svg](https://www.python.org/static/community_logos/python-powered-w-70x28.png)">
+<img src="https://www.python.org/static/community_logos/python-powered-w-70x28.png">
 
 <h1>Baseball_Billions</h1>
 
