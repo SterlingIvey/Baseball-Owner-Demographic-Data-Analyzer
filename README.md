@@ -1,3 +1,5 @@
+https://img.shields.io/github/license/SterlingIvey/Baseball_Billions
+
 <h1>Baseball_Billions</h1>
 
 Welcome to **Baseball_Billions**: Analyzing the Financial Scorecard of Baseball Team Owners.
