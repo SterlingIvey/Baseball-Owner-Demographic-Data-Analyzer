@@ -1,4 +1,4 @@
-https://img.shields.io/github/license/SterlingIvey/Baseball_Billions
+<img src="https://img.shields.io/github/license/SterlingIvey/Baseball_Billions">
 
 <h1>Baseball_Billions</h1>
 
