@@ -1,8 +1,8 @@
 age,industry,education,race,sex,net_worth,name,team,league,division,year_bought,franchise_value
-67,finance,bachelors,white,male,13900000000.00 ,steven cohen,new york mets,nl,east,2020,2900000000.00
-83,telecommunications,doctorate,white,male,8890000000.00,john malone,atlanta braves,nl,east,2007,2600000000.00
-75,finance,professional,white,male,500000000.00,bruce sherman,miami marlins,nl,east,2017,100000000.00
-69,inheritance,professional,white,male,3400000000.00,john middleton,philadelphia phillies,nl,east,2016,2575000000.00
+67,finance,bachelors,white,male,13900000000.00 ,steven cohen,nym,nl,east,2020,2900000000.00
+83,telecommunications,doctorate,white,male,8890000000.00,john malone,atl,nl,east,2007,2600000000.00
+75,finance,professional,white,male,500000000.00,bruce sherman,mia,nl,east,2017,100000000.00
+69,inheritance,professional,white,male,3400000000.00,john middleton,phi,nl,east,2016,2575000000.00
 70,inheritance,bachelors,white,male,1500000000.00,mark lerner,washington nationals,nl,east,2006,2000000000.00
 57,inheritance,professional,white,male,900000000.00,thomas ricketts,chicago cubs,nl,central,2009,4100000000.00
 82,consumer staples,professional,white,male,400000000.00,robert castellini,cincinnati reds,nl,central,2006,1190000000.00
@@ -15,8 +15,8 @@ age,industry,education,race,sex,net_worth,name,team,league,division,year_bought,
 63,finance,professional,white,male,3000000000.00,peter seidler,san diego padres,nl,west,2020,1750000000.00
 91,inheritance,bachelors,white,male,5270000000.00,charles johnson,san francisco giants,nl,west,1992,3700000000.00
 74,finance,professional,white,male,3900000000.00,david rubenstein,baltimore orioles,al,east,2024,1713000000.00
-74,finance,none,white,male,5130000000.00,john henry,boston red sox,al,east,2002,4500000000.00
-54,inheritance,professional,white,male,1520000000.00,hal steinbrenner,new york yankees,al,east,2010,7100000000.00
+74,finance,none,white,male,5130000000.00,john henry,bos,al,east,2002,4500000000.00
+54,inheritance,professional,white,male,1520000000.00,hal steinbrenner,nyy,al,east,2010,7100000000.00
 64,finance,bachelors,white,male,800000000.00,stuart sternberg,tampa bay rays,al,east,2005,1250000000.00
 54,telecommunications,bachelors,white,male,11500000000.00,rogers communications,toronto blue jays,al,east,2000,2100000000.00
 88,real estate,professional,white,male,2100000000.00,jerry reinsdorf,chicago white sox,al,central,1981,2050000000.00
@@ -25,7 +25,7 @@ age,industry,education,race,sex,net_worth,name,team,league,division,year_bought,
 68,energy,bachelors,white,male,800000000.00,john sherman,kansas city royals,al,central,2019,1200000000.00
 70,inheritance,bachelors,white,male,3800000000.00,pohlad family,minnesota twins,al,central,2009,1390000000.00
 70,energy,bachelors,white,male,2400000000.00,jim crane,houston astros,al,west,2003,2250000000.00
-77,entertainment,bachelors,latin american,male,4900000000.00,arte moreno,los angeles angels,al,west,2003,2700000000.00
+77,entertainment,bachelors,latin american,male,4900000000.00,arte moreno,las,al,west,2003,2700000000.00
 64,finance,professional,white,male,6000000000.00,guggenheim baseball management(mark walter),los angeles dodgers,nl,west,2012,4800000000.00
-62,inheritance,professional,white,male,330000000000,john fisher,oakland athletics,al,west,2016,1180000000.00
-68,telecommunications,professional,white,male,1100000000.00,john stanton,seattle mariners,al,west,2016,2200000000.00
+62,inheritance,professional,white,male,330000000000,john fisher,oak,al,west,2016,1180000000.00
+68,telecommunications,professional,white,male,1100000000.00,john stanton,sea,al,west,2016,2200000000.00
