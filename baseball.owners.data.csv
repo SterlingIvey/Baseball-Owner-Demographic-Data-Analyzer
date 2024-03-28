@@ -1,5 +1,5 @@
 age,industry,education,race,sex,net_worth,name,team,league,division,year_bought,franchise_value
-67,finance,bachelors,white,male,13900000000.00 ,steven cohen,nym,nl,east,2020,2900000000.00
+67,finance,bachelors,white,male,13900000000.00,steven cohen,nym,nl,east,2020,2900000000.00
 83,telecommunications,doctorate,white,male,8890000000.00,john malone,atl,nl,east,2007,2600000000.00
 75,finance,professional,white,male,500000000.00,bruce sherman,mia,nl,east,2017,100000000.00
 69,inheritance,professional,white,male,3400000000.00,john middleton,phi,nl,east,2016,2575000000.00
