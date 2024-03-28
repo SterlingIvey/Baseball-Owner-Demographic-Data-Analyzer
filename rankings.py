@@ -29,6 +29,19 @@ def rank_by_franchise_value(df):
     """
     return df.sort_values(by='franchise_value', ascending=False)[['team', 'franchise_value']]
 
+def rank_owners_franchise_percentage(df):
+    """
+    Calculates and ranks the percentage of franchise value of owners' net worth.
+
+    Parameters:
+    df (DataFrame): DataFrame containing the owners' net worth and franchise value data.
+
+    Returns:
+    DataFrame: Sorted by the percentage of franchise value of net worth in descending order.
+    """
+    df['franchise_percentage'] = (df['franchise_value'] / df['net_worth']) * 100
+    return df.sort_values(by='franchise_percentage', ascending=False)[['name', 'franchise_percentage']]
+
 # Usage Example
 df = pd.read_csv('baseball_owners_data.csv')
 # Assuming the 'net_worth' column exists and is correctly formatted
