@@ -17,9 +17,9 @@ age,industry,education,race,sex,net_worth,name,team,league,division,year_bought,
 74,finance,professional,white,male,3900000000.00,david rubenstein,bal,al,east,2024,1713000000.00
 74,finance,none,white,male,5130000000.00,john henry,bos,al,east,2002,4500000000.00
 54,inheritance,professional,white,male,1520000000.00,hal steinbrenner,nyy,al,east,2010,7100000000.00
-64,finance,bachelors,white,male,800000000.00,stuart sternberg,tampa bay rays,al,east,2005,1250000000.00
+64,finance,bachelors,white,male,800000000.00,stuart sternberg,tbr,al,east,2005,1250000000.00
 54,telecommunications,bachelors,white,male,11500000000.00,rogers communications,tor,al,east,2000,2100000000.00
-88,real estate,professional,white,male,2100000000.00,jerry reinsdorf,chicago white sox,al,central,1981,2050000000.00
+88,real estate,professional,white,male,2100000000.00,jerry reinsdorf,chw,al,central,1981,2050000000.00
 93,inheritance,professional,white,male,4600000000.00,larry dolan,cle,al,central,2000,1300000000.00
 91,consumer staples,none,white,female,3800000000.00,ilitch family,det,al,central,2017,1450000000.00
 68,energy,bachelors,white,male,800000000.00,john sherman,kc,al,central,2019,1200000000.00
