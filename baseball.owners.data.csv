@@ -19,10 +19,10 @@ age,industry,education,race,sex,net_worth,name,team,league,division,year_bought,
 54,inheritance,professional,white,male,1520000000.00,hal steinbrenner,new york yankees,al,east,2010,7100000000.00
 64,finance,bachelors,white,male,800000000.00,stuart sternberg,tampa bay rays,al,east,2005,1250000000.00
 54,telecommunications,bachelors,white,male,11500000000.00,rogers communications,toronto blue jays,al,east,2000,2100000000.00
-88,real estate,professional,white,male," 2,100,000,000.00 ",jerry reinsdorf,chicago white sox,al,central,1981," 2,050,000,000.00 "
-93,inheritance,professional,white,male," 4,600,000,000.00 ",larry dolan,cleveland guardians,al,central,2000," 1,300,000,000.00 "
-91,consumer staples,none,white,female," 3,800,000,000.00 ",ilitch family,detroit tigers,al,central,2017," 1,450,000,000.00 "
-68,energy,bachelors,white,male," 800,000,000.00 ",john sherman,kansas city royals,al,central,2019," 1,200,000,000.00 "
+88,real estate,professional,white,male,2100000000.00,jerry reinsdorf,chicago white sox,al,central,1981,2050000000.00
+93,inheritance,professional,white,male,4600000000.00,larry dolan,cleveland guardians,al,central,2000,1300000000.00
+91,consumer staples,none,white,female,3800000000.00,ilitch family,detroit tigers,al,central,2017,1450000000.00
+68,energy,bachelors,white,male,800000000.00,john sherman,kansas city royals,al,central,2019,1200000000.00
 70,inheritance,bachelors,white,male," 3,800,000,000.00 ",pohlad family,minnesota twins,al,central,2009," 1,390,000,000.00 "
 70,energy,bachelors,white,male," 2,400,000,000.00 ",jim crane,houston astros,al,west,2003," 2,250,000,000.00 "
 77,entertainment,bachelors,latin american,male," 4,900,000,000.00 ",arte moreno,los angeles angels,al,west,2003," 2,700,000,000.00 "
