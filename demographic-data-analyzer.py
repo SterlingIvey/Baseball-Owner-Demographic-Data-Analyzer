@@ -6,8 +6,8 @@ def calculate_baseball_owners_data(print_data=True):
     df = pd.read_csv('baseball_owners_data.csv')
     
     # Data cleaning and preprocessing
-    df['net worth'] = df['net worth'].replace('[\$,']', '', regex=True).astype(float)
-    df['franchise value'] = df['net worth'].replace('[\$,']', '', regex=True).astype(float)
+    df['net_worth'] = df['net_worth'].replace('[\$,']', '', regex=True).astype(float)
+    df['franchise_value'] = df['franchise_value'].replace('[\$,']', '', regex=True).astype(float)
 
     # How many of each race are represented in this dataset of baseball owners?
     race_count = df['race'].value_counts()
