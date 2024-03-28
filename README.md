@@ -1,5 +1,6 @@
 <img src="https://img.shields.io/github/license/SterlingIvey/Baseball_Billions">
-<img src="https://www.python.org/static/community_logos/python-powered-w-70x28.png">
+<img alt="Static Badge" src="https://img.shields.io/badge/Python%20-%20version%203.12.2%20-%20%233776AB?logo=Python">
+
 
 <h1>Baseball_Billions</h1>
 
