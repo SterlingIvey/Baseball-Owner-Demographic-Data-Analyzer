@@ -13,7 +13,7 @@ def calculate_baseball_owners_data(print_data=True):
     race_count = df['race'].value_counts()
 
     # What is the average age of baseball owners?
-    average_age_owner = round(df['age'].mean() * 100, 1)
+    average_age_owner = round(df['age'].mean(), 1)
 
     # What percentage of baseball owners have a Bachelor's degree?
     percentage_bachelors = round(df.loc[df['education'] == 'Bachelors', 'education'].count() / df.shape[0] * 100,1)
