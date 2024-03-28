@@ -26,6 +26,6 @@ age,industry,education,race,sex,net_worth,name,team,league,division,year_bought,
 70,inheritance,bachelors,white,male,3800000000.00,pohlad family,minnesota twins,al,central,2009,1390000000.00
 70,energy,bachelors,white,male,2400000000.00,jim crane,houston astros,al,west,2003,2250000000.00
 77,entertainment,bachelors,latin american,male,4900000000.00,arte moreno,los angeles angels,al,west,2003,2700000000.00
-64,finance,professional,white,male," 6,000,000,000.00 ",guggenheim baseball management(mark walter),los angeles dodgers,nl,west,2012," 4,800,000,000.00 "
-62,inheritance,professional,white,male," 3,300,000,000.00 ",john fisher,oakland athletics,al,west,2016," 1,180,000,000.00 "
-68,telecommunications,professional,white,male," 1,100,000,000.00 ",john stanton,seattle mariners,al,west,2016," 2,200,000,000.00 "
+64,finance,professional,white,male,6000000000.00,guggenheim baseball management(mark walter),los angeles dodgers,nl,west,2012,4800000000.00
+62,inheritance,professional,white,male,330000000000,john fisher,oakland athletics,al,west,2016,1180000000.00
+68,telecommunications,professional,white,male,1100000000.00,john stanton,seattle mariners,al,west,2016,2200000000.00
