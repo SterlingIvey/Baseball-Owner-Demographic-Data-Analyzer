@@ -12,7 +12,7 @@ age,industry,education,race,sex,net_worth,name,team,league,division,year_bought,
 80,technology,bachelors,white,male,1000000000.00,ken kendrick,ari,nl,west,2004,1380000000.00
 74,inheritance,bachelors,white,male,700000000.00,charlie monfort,col,nl,west,2005,1475000000.00
 79,inheritance,bachelors,white,male,700000000.00,dick monfort,col,nl,west,2005,1475000000.00
-63,finance,professional,white,male,3000000000.00,peter seidler,san diego padres,nl,west,2020,1750000000.00
+63,finance,professional,white,male,3000000000.00,peter seidler,sdp,nl,west,2020,1750000000.00
 91,inheritance,bachelors,white,male,5270000000.00,charles johnson,sf,nl,west,1992,3700000000.00
 74,finance,professional,white,male,3900000000.00,david rubenstein,bal,al,east,2024,1713000000.00
 74,finance,none,white,male,5130000000.00,john henry,bos,al,east,2002,4500000000.00
