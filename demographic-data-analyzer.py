@@ -22,7 +22,6 @@ def calculate_baseball_owners_data(print_data=True):
     top_industry = df['industry'].value_counts().idxmax()
     
     # What is the average net worth of baseball owners?
-    df['net worth'] = df['net worth'].replace('[\$,]', '', regex=True).astype(float)
     average_net_worth = df['net worth'].mean()
 
     # Identify the most popular industry that MLB owners come from.
