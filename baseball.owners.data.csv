@@ -4,12 +4,12 @@ age,industry,education,race,sex,net_worth,name,team,league,division,year_bought,
 75,finance,professional,white,male,500000000.00,bruce sherman,mia,nl,east,2017,100000000.00
 69,inheritance,professional,white,male,3400000000.00,john middleton,phi,nl,east,2016,2575000000.00
 70,inheritance,bachelors,white,male,1500000000.00,mark lerner,was,nl,east,2006,2000000000.00
-57,inheritance,professional,white,male,900000000.00,thomas ricketts,chicago cubs,nl,central,2009,4100000000.00
+57,inheritance,professional,white,male,900000000.00,thomas ricketts,chc,nl,central,2009,4100000000.00
 82,consumer staples,professional,white,male,400000000.00,robert castellini,cin,nl,central,2006,1190000000.00
 66,finance,professional,white,male,700000000.00,mark attanasio,mil,nl,central,2005,1605000000.00
 61,inheritance,bachelors,white,male,1100000000.00,pit,robert nutting,nl,central,1996,1320000000.00
 82,inheritance,professional,white,male,4000000000.00,william dewitt jr,stl,nl,central,1995,2550000000.00
-80,technology,bachelors,white,male,1000000000.00,ken kendrick,arizona diamondbacks,nl,west,2004,1380000000.00
+80,technology,bachelors,white,male,1000000000.00,ken kendrick,ari,nl,west,2004,1380000000.00
 74,inheritance,bachelors,white,male,700000000.00,charlie monfort,col,nl,west,2005,1475000000.00
 79,inheritance,bachelors,white,male,700000000.00,dick monfort,col,nl,west,2005,1475000000.00
 63,finance,professional,white,male,3000000000.00,peter seidler,san diego padres,nl,west,2020,1750000000.00
