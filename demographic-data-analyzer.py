@@ -35,7 +35,7 @@ def calculate_baseball_owners_data(print_data=True):
 
     # DO NOT MODIFY BELOW THIS LINE
 
-       if print_data:
+    if print_data:
         print("Number of each race:\n", race_count) 
         print("Average age of owner:", average_age_owner)
         print(f"Percentage with Bachelors degrees: {percentage_bachelors}%")
