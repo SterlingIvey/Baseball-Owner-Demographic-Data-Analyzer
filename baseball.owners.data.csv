@@ -23,9 +23,9 @@ age,industry,education,race,sex,net_worth,name,team,league,division,year_bought,
 93,inheritance,professional,white,male,4600000000.00,larry dolan,cleveland guardians,al,central,2000,1300000000.00
 91,consumer staples,none,white,female,3800000000.00,ilitch family,detroit tigers,al,central,2017,1450000000.00
 68,energy,bachelors,white,male,800000000.00,john sherman,kansas city royals,al,central,2019,1200000000.00
-70,inheritance,bachelors,white,male," 3,800,000,000.00 ",pohlad family,minnesota twins,al,central,2009," 1,390,000,000.00 "
-70,energy,bachelors,white,male," 2,400,000,000.00 ",jim crane,houston astros,al,west,2003," 2,250,000,000.00 "
-77,entertainment,bachelors,latin american,male," 4,900,000,000.00 ",arte moreno,los angeles angels,al,west,2003," 2,700,000,000.00 "
+70,inheritance,bachelors,white,male,3800000000.00,pohlad family,minnesota twins,al,central,2009,1390000000.00
+70,energy,bachelors,white,male,2400000000.00,jim crane,houston astros,al,west,2003,2250000000.00
+77,entertainment,bachelors,latin american,male,4900000000.00,arte moreno,los angeles angels,al,west,2003,2700000000.00
 64,finance,professional,white,male," 6,000,000,000.00 ",guggenheim baseball management(mark walter),los angeles dodgers,nl,west,2012," 4,800,000,000.00 "
 62,inheritance,professional,white,male," 3,300,000,000.00 ",john fisher,oakland athletics,al,west,2016," 1,180,000,000.00 "
 68,telecommunications,professional,white,male," 1,100,000,000.00 ",john stanton,seattle mariners,al,west,2016," 2,200,000,000.00 "
