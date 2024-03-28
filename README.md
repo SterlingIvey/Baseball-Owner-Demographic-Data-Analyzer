@@ -1,6 +1,6 @@
 Baseball_Billions
 
-Welcome to Baseball_Billions
+Welcome to Baseball_Billions: Analyzing the Financial Scorecard of Baseball Team Owners.
 
 
 Overview
