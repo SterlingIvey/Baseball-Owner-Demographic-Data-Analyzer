@@ -1,5 +1,5 @@
 import dash
-import dash_core_components as dcc
+from dash import dcc
 from dash import html
 
 # Initialize the Dash app
