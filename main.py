@@ -1,4 +1,4 @@
-import demographic-data-analyzer
+import demographic_data_analyzer
 import rankings
 from unittest import main
 
