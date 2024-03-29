@@ -25,7 +25,7 @@ def calculate_baseball_owners_data(print_data=True):
     average_net_worth = df['net_worth'].mean()
     
     # What is the average value of the teams owned?
-    df['franchise_value'] = df['franchise_value'].replace('[\$,]', '', regex=True.astype(float)
+    df['franchise_value'] = df['franchise_value'].replace('[\$,]', '', regex=True).astype(float)
     average_team_value = df['franchise_value'].mean()
 
 
