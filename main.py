@@ -1,5 +1,6 @@
 import demographic_data_analyzer
 import rankings
+import app
 from unittest import main
 
 # Test your function by calling it here
