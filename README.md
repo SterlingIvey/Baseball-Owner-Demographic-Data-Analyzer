@@ -2,9 +2,9 @@
 <img alt="Static Badge" src="https://img.shields.io/badge/Python%20-%20version%203.12.2%20-%20%233776AB?logo=Python">
 <img alt="Static Badge" src="https://img.shields.io/badge/pandas%20-%20%23150458?logo=pandas">
 
-<h1>Baseball_Billions</h1>
+<h1>Baseball_Biz</h1>
 
-Welcome to **Baseball_Billions**: Analyzing the Financial Scorecard of Baseball Team Owners.
+Welcome to **Baseball_Biz**: Analyzing the Financial Scorecard of Baseball Franchises.
 
 
 <h2>Overview</h2>
