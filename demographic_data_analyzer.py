@@ -29,7 +29,7 @@ def calculate_baseball_owners_data(print_data=True):
     average_team_value = df['franchise_value'].mean()
 
 
-    # DO NOT MODIFY BELOW THIS LINE
+    # UI Output below here 
 
     if print_data:
         print("Number of each race:\n", race_count) 
