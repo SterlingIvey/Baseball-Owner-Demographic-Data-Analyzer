@@ -12,16 +12,9 @@ def calculate_baseball_owners_data(print_data=True):
     percentage_bachelors = round(df.loc[df['education'] == 'bachelors', 'education'].count() / df.shape[0] * 100,1)
     top_industry = df['industry'].value_counts().idxmax()
     median_net_worth = df['net_worth'].median()
-    
-    # What is the average value of the teams owned?
     average_team_value = df['franchise_value'].mean()
-
     max_value_index = df['franchise_value'].idxmax()
-
-    # What is the most valuable franchise?
     most_valuable_franchise_row = df.loc[df['franchise_value'].idxmax()]
-
-    # Extract the team name and franchise value from the row
     most_valuable_team = most_valuable_franchise_row['team']
     most_valuable_value = most_valuable_franchise_row['franchise_value']
 
@@ -35,7 +28,7 @@ def calculate_baseball_owners_data(print_data=True):
         print("Current Most popular industry among owners:", top_industry)
         print("Current Median net worth of owners: ${:,.2f}".format(median_net_worth))
         print("Current Average value of teams: ${:,.2f}".format(average_team_value))
-        print("Most Valuable Franchise: {most_valuable_team} with a value of ${most_valuable_value:} ")
+        print("Most Valuable Franchise: {most_valuable_team} with a value of ${most_valuable_value:,} ")
 
     return {
         'race_count': race_count,
@@ -47,4 +40,4 @@ def calculate_baseball_owners_data(print_data=True):
         'average_team_value': average_team_value,
         'most_valuable_franchise': most_valuable_team
     }
-    return calculate_baseball_owners_data()
+    calculate_baseball_owners_data()
