@@ -3,23 +3,14 @@ import pandas as pd
 def calculate_baseball_owners_data(print_data=True):
     # Read data from file
     df = pd.read_csv('baseball_owners_data.csv')
+    df['education'] = df['education'].str.lower()
 
     # How many of each race are represented in this dataset of baseball owners?
     race_count = df['race'].value_counts()
-
-    # What is the average age of baseball owners?
     average_age_owners = round(df['age'].mean(), 1)
-
-    # What about median age?
     median_age_owners = round(df['age'].median(), 1)
-
-    # What percentage of baseball owners have at least a Bachelor's degree?
     percentage_bachelors = round(df.loc[df['education'] == 'bachelors', 'education'].count() / df.shape[0] * 100,1)
-    
-    # What is the most popular industry among baseball owners?
     top_industry = df['industry'].value_counts().idxmax()
-    
-    # What is the median net worth of baseball owners?
     median_net_worth = df['net_worth'].median()
     
     # What is the average value of the teams owned?
