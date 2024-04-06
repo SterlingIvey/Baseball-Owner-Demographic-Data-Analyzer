@@ -2,7 +2,7 @@ import pandas as pd
 
 def calculate_baseball_owners_data(print_data=True):
     # Read data from file
-    df = pd.read_csv('baseball_owners_data')
+    df = pd.read_csv('baseball_owners_data.csv')
 
     # How many of each race are represented in this dataset of baseball owners?
     race_count = df['race'].value_counts()
