@@ -1,5 +1,4 @@
 import pandas as pd
-
 def calculate_baseball_owners_data(print_data=True):
     # Read data from file
     df = pd.read_csv('baseball_owners_data.csv')
@@ -17,6 +16,12 @@ def calculate_baseball_owners_data(print_data=True):
     most_valuable_franchise_row = df.loc[df['franchise_value'].idxmax()]
     most_valuable_team = most_valuable_franchise_row['team']
     most_valuable_value = most_valuable_franchise_row['franchise_value']
+    wealthiest_owner_row = df.loc[df['net_worth'].idxmax()]
+    wealthiest_owner = wealthiest_owner_row['name']
+    wealthiest_owner_net_worth = wealthiest_owner_row['net_worth']
+    poorest_owner_row = df.loc[df['net_worth'].idxmin()]
+    poorest_owner = poorest_owner_row['name']
+    poorest_owner_net_worth = poorest_owner_row['net_worth']
 
     # Data output is below this line
 
@@ -29,7 +34,8 @@ def calculate_baseball_owners_data(print_data=True):
         print("Current Median net worth of owners: ${:,.2f}".format(median_net_worth))
         print("Current Average value of teams: ${:,.2f}".format(average_team_value))
         print("Most Valuable Franchise: {most_valuable_team} with a value of ${most_valuable_value:,} ")
-
+        print(f"Wealthiest Owner: {wealthiest_owner} with a net worth of ${wealthiest_owner_net_worth:,}")
+        print(f"Poorest Owner: {poorest_owner} with a net worth of ${poorest_owner_net_worth:,}")
     return {
         'race_count': race_count,
         'average_age_owners': average_age_owners,
@@ -38,5 +44,7 @@ def calculate_baseball_owners_data(print_data=True):
         'top_industry': top_industry,
         'median_net_worth': median_net_worth,
         'average_team_value': average_team_value,
-        'most_valuable_franchise': most_valuable_team
+        'most_valuable_franchise': most_valuable_team,
+        'wealthiest_owner': wealthiest_owner,
+        'poorest_owner': poorest_owner
     }
