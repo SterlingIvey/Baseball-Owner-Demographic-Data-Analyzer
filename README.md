@@ -1,5 +1,5 @@
 <img src="https://img.shields.io/github/license/SterlingIvey/Baseball_Billions">
-<img alt="Static Badge" src="https://img.shields.io/badge/Python%20-%20version%203.12.2%20-%20%233776AB?logo=Python">
+<img alt="Static Badge" src="https://img.shields.io/badge/Python%20-%20version%203.12.3%20-%20%233776AB?logo=Python">
 <img alt="Static Badge" src="https://img.shields.io/badge/pandas%20-%20%23150458?logo=pandas">
 
 <h1>Baseball_Biz</h1>
