@@ -22,6 +22,12 @@ def calculate_baseball_owners_data(print_data=True):
     poorest_owner_row = df.loc[df['net_worth'].idxmin()]
     poorest_owner = poorest_owner_row['name']
     poorest_owner_net_worth = poorest_owner_row['net_worth']
+    total_net_worth_by_league = df.groupby('league')['net_worth'].sum()
+    wealthiest_league = total_net_worth_by_league.idxmax()
+    wealthiest_league_net_worth = total_net_worth_by_league.max()
+    total_net_worth_by_division = df.groupby('division')['net_worth'].sum()
+    wealthiest_division = total_net_worth_by_division.idxmax()
+    wealthiest_division_net_worth = total_net_worth_by_division.max()
 
     # Data output is below this line
 
@@ -36,6 +42,8 @@ def calculate_baseball_owners_data(print_data=True):
         print("Most Valuable Franchise: {most_valuable_team} with a value of ${most_valuable_value:,} ")
         print(f"Wealthiest Owner: {wealthiest_owner} with a net worth of ${wealthiest_owner_net_worth:,}")
         print(f"Poorest Owner: {poorest_owner} with a net worth of ${poorest_owner_net_worth:,}")
+        print(f"Wealthiest League: {wealthiest_league} with a total net worth of ${wealthiest_league_net_worth:,}")
+        print(f"Wealthiest Division: {wealthiest_division} with a total net worth of ${wealthiest_division_net_worth:,}")
     return {
         'race_count': race_count,
         'average_age_owners': average_age_owners,
@@ -46,5 +54,8 @@ def calculate_baseball_owners_data(print_data=True):
         'average_team_value': average_team_value,
         'most_valuable_franchise': most_valuable_team,
         'wealthiest_owner': wealthiest_owner,
-        'poorest_owner': poorest_owner
+        'poorest_owner': poorest_owner,
+        'wealthiest_league': wealthiest_league,
+        'wealthiest_league_net_worth': wealthiest_league_net_worth,
+        'wealthiest_division_net_worth': wealthiest_division_net_worth
     }
