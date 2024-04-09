@@ -1,10 +1,12 @@
 import pandas as pd
+from tabulate import tabulate
 def calculate_baseball_owners_data(print_data=True):
     # Read data from file
     df = pd.read_csv('baseball_owners_data.csv')
     df['education'] = df['education'].str.lower()
 
-    # How many of each race are represented in this dataset of baseball owners?
+    # Different variables below
+
     race_count = df['race'].value_counts()
     average_age_owners = round(df['age'].mean(), 1)
     median_age_owners = round(df['age'].median(), 1)
@@ -44,6 +46,12 @@ def calculate_baseball_owners_data(print_data=True):
         print(f"Poorest Owner: {poorest_owner} with a net worth of ${poorest_owner_net_worth:,}")
         print(f"Wealthiest League: {wealthiest_league} with a total net worth of ${wealthiest_league_net_worth:,}")
         print(f"Wealthiest Division: {wealthiest_division} with a total net worth of ${wealthiest_division_net_worth:,}")
+
+        stats_data = [
+            ["Average Age of Owners", average_age_owners],
+            ["Median Age of Owners", median_age_owners],
+            ["Percentage with Bachelors", f"{percentage_bachelors}%"]
+        ]
     return {
         'race_count': race_count,
         'average_age_owners': average_age_owners,
