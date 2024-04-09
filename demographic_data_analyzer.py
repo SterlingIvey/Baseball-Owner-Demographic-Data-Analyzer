@@ -40,4 +40,4 @@ def calculate_baseball_owners_data(print_data=True):
         'average_team_value': average_team_value,
         'most_valuable_franchise': most_valuable_team
     }
-    calculate_baseball_owners_data()
+    return calculate_baseball_owners_data()
