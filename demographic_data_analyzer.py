@@ -30,7 +30,8 @@ def calculate_baseball_owners_data(print_data=True):
     total_net_worth_by_division = df.groupby('division')['net_worth'].sum()
     wealthiest_division = total_net_worth_by_division.idxmax()
     wealthiest_division_net_worth = total_net_worth_by_division.max()
-
+    correlation_matrix = df[['net_worth', 'franchise_value', 'division']].corr()
+        
     # Data output is below this line
 
     if print_data:
