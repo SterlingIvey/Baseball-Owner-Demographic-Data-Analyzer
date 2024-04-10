@@ -20,8 +20,8 @@ year,franchise_value,net_income,owner,attendance
 2016,
 2017,
 2018,
-2019,
-2020,
+2019,1000000000,27000000,stuart_sternberg,
+2020,1100000000,68000000,stuart_sternberg,
 2021,1100000000,-23000000,stuart_sternberg,
 2022,1100000000,45000000,stuart_sternberg,
 2023,1300000000,95000000,stuart_sternberg,1440301
