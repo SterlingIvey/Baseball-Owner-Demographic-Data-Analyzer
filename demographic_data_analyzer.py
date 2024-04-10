@@ -47,7 +47,8 @@ def calculate_baseball_owners_data(print_data=True):
         print(f"Poorest Owner: {poorest_owner} with a net worth of ${poorest_owner_net_worth:,}")
         print(f"Wealthiest League: {wealthiest_league} with a total net worth of ${wealthiest_league_net_worth:,}")
         print(f"Wealthiest Division: {wealthiest_division} with a total net worth of ${wealthiest_division_net_worth:,}")
-
+        print("Correlation Matrix:")
+        
     return {
         'race_count': race_count,
         'average_age_owners': average_age_owners,
