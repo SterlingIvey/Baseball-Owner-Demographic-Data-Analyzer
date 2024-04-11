@@ -3,7 +3,7 @@ import pandas as pd
 def get_team_recommendation(): 
     print("Welcome User! Which baseball team should you root for?")
     
-    # Begin questions
+    # Queetions and scoring logic
     questions = [{"question": "Are you a history buff? (Yes/No)", "weight": {"Yes": 1, "No": 2}}, 
                  {"question": "Where do you live?"}, 
                  {"question": "Are you passionate about other sports?"},
