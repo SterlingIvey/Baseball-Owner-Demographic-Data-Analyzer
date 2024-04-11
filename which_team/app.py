@@ -47,5 +47,5 @@ def get_team_recommendation():
     # Process each question
     
     for question in questions: 
-        answer = input(question["question"] + " "
+        answer = input(question["question"] + " ").strip().lower()
                         
