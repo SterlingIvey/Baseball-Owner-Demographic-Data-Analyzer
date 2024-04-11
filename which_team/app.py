@@ -9,7 +9,8 @@ def get_team_recommendation():
                  {"question": "Are you passionate about other sports?"},
                  {"question": "Big drinker?"},
                  {"question": "Did you grow up playing baseball?"},
-                 {"question": "Do you want to be able to own a piece of your team?"}]
+                 {"question": "Do you want to be able to own a piece of your team?"}
+                ]
     # Team data and weightings
     teams_data = {"Team": ["New York Mets": {"history": 2}, 
                            "Atlanta Braves": {"history": 1}, 
