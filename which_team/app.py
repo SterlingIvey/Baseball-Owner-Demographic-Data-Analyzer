@@ -11,7 +11,7 @@ def get_team_recommendation():
                 ]
     # Team data and weightings
     teams_data = {"Team":  "New York Mets": {"history": 2, "passionate": 1, "iq": 1}, 
-                           "Atlanta Braves": {"history": 1, "passionate": 1, "iq": 2}, 
+                           "Atlanta Braves": {"history": 1, "passionate": 1, "iq": 2, "public": 1}, 
                            "Miami Marlins": {"history": 2, "passionate": 2, "iq": 2}, 
                            "Philadelphia Phillies": {"history": 1, "passionate": 1, "iq": 2}, 
                            "Washington Nationals": {"history": 2, "passionate": 2, "iq": 2}, 
@@ -28,7 +28,7 @@ def get_team_recommendation():
                            "New York Yankees": {"history": 1, "passionate": 1, "iq": 1}, 
                            "Tampa Bay Rays": {"history": 2, "passionate": 2, "iq": 1}, 
                            "Boston Red Sox": {"history": 1, "passionate": 1, "iq": 1}, 
-                           "Toronto Blue Jays": {"history": 2, "passionate": 2, "iq": 2},
+                           "Toronto Blue Jays": {"history": 2, "passionate": 2, "iq": 2, "public": 1},
                            "Chicago White Sox": {"history": 1, "passionate": 2, "iq": 2},
                            "Cleveland Guardians": {"history": 1, "passionate": 2, "iq": 2},
                            "Detroit Tigers": {"history": 1, "passionate": 2, "iq": 2},
