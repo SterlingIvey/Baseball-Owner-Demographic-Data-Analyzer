@@ -57,7 +57,9 @@ def get_team_recommendation():
     
     recommended_team = max(scores, key=scores.get)
     return recommended_team
+    
 # Run the questionnaire 
+
 team = get_team_recommendation
 print(f"Based on your answers, you might enjoy rooting for {team}!")
                         
