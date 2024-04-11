@@ -43,4 +43,9 @@ def get_team_recommendation():
     # Initialize scores
     
     scores = {team: 0 for team in teams_data}
+    
+    # Process each question
+    
+    for question in questions: 
+        answer = input(question["question"] + ""
                         
