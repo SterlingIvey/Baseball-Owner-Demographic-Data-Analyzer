@@ -12,7 +12,7 @@ def get_team_recommendation():
                  {"question": "Do you want to be able to own a piece of your team?"}
                 ]
     # Team data and weightings
-    teams_data = {"Team": ["New York Mets": {"history": 2}, 
+    teams_data = {"Team":  "New York Mets": {"history": 2}, 
                            "Atlanta Braves": {"history": 1}, 
                            "Miami Marlins": {"history": 2}, 
                            "Philadelphia Phillies": {"history": 1}, 
@@ -38,5 +38,5 @@ def get_team_recommendation():
                            "Detroit Tigers": {"history": 1},
                            "Kansas City Royals": {"history": 2},
                            "Minnesota Twins": {"history": 1}
-                        ]}
+                        }
                         
