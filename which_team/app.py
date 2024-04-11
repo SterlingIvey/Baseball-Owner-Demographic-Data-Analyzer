@@ -56,7 +56,7 @@ def get_team_recommendation():
     # Update scores based on the user's answers
     
         for team in df_teams.index:
-            scores[team] += df_teams.index.at[team, question["weight"]] * weight
+            scores[team] += df_teams.at[team, question["weight"]] * weight
         
     # Determine recommended team
     
