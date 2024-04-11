@@ -21,4 +21,8 @@ def get_team_recommendation():
                            "San Diego Padres": {"history": 2}, 
                            "San Francisco Giants": {"history": 1}, 
                            "Baltimore Orioles": {"history": 1},
-                           "New York Yankees": {"history": 1}, "Tampa Bay Rays": {"history": 2}, "Boston Red Sox": {"history": 1}, "New York Yankees": {"history": 1}, "Tampa Bay Rays": {"history": 2}, "Toronto Blue Jays": {
+                           "New York Yankees": {"history": 1}, 
+                           "Tampa Bay Rays": {"history": 2}, 
+                           "Boston Red Sox": {"history": 1}, 
+                           "New York Yankees": {"history": 1}, 
+                           "Tampa Bay Rays": {"history": 2}, "Toronto Blue Jays": {
