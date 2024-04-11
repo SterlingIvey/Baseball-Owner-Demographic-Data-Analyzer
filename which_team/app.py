@@ -4,12 +4,15 @@ def get_team_recommendation():
     print("Welcome User! Which baseball team should you root for?")
     
     # Queetions and scoring logic
+    
     questions = [{"question": "Are you a history buff? (Yes/No)", "weight": "history"}, 
                  {"question": "Are you passionate about other sports? (Yes/No)", "weight": "passionate"},
                  {"question": "Did you grow up playing baseball? (Yes/No)", "weight": "iq"},
                  {"question": "Do you want to be able to own a piece of your team? (Yes/No)", "weight": "public"}
                 ]
+                
     # Team data and weightings
+    
     teams_data = {"Team":  "New York Mets": {"history": 2, "passionate": 1, "iq": 1}, 
                            "Atlanta Braves": {"history": 1, "passionate": 1, "iq": 2, "public": 1}, 
                            "Miami Marlins": {"history": 2, "passionate": 2, "iq": 2}, 
