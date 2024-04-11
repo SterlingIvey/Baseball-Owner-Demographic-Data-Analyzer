@@ -4,10 +4,10 @@ def get_team_recommendation():
     print("Welcome User! Which baseball team should you root for?")
     
     # Queetions and scoring logic
-    questions = [{"question": "Are you a history buff? (Yes/No)", "weight": {"Yes": 1, "No": 2}}, 
-                 {"question": "Are you passionate about other sports? (Yes/No)", "weight": {"Yes": 1, "No": 2}},
-                 {"question": "Did you grow up playing baseball? (Yes/No)", "weight": {"Yes": 1, "No": 2}},
-                 {"question": "Do you want to be able to own a piece of your team? (Yes/No)", "weight": {"Yes": 1, "No": 2}}
+    questions = [{"question": "Are you a history buff? (Yes/No)", "weight": "history"}, 
+                 {"question": "Are you passionate about other sports? (Yes/No)", "weight": "passionate"},
+                 {"question": "Did you grow up playing baseball? (Yes/No)", "weight": "iq"},
+                 {"question": "Do you want to be able to own a piece of your team? (Yes/No)", "weight": "public"}
                 ]
     # Team data and weightings
     teams_data = {"Team":  "New York Mets": {"history": 2, "passionate": 1, "iq": 1}, 
