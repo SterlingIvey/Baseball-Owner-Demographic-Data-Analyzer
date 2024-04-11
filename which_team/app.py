@@ -34,6 +34,6 @@ def get_team_recommendation():
                            "Cleveland Guardians": {"history": 1, "passionate": 2},
                            "Detroit Tigers": {"history": 1, "passionate": 2},
                            "Kansas City Royals": {"history": 2, "passionate": 2},
-                           "Minnesota Twins": {"history": 1}
+                           "Minnesota Twins": {"history": 1, "passionate": 2}
                         }
                         
