@@ -48,4 +48,5 @@ def get_team_recommendation():
     
     for question in questions: 
         answer = input(question["question"] + " ").strip().lower()
+        weight = 1 if answer == "yes" else 2
                         
