@@ -39,4 +39,8 @@ def get_team_recommendation():
     # Convert to Data Frame for easier manipulation
     
     df_teams = pd.DataFrame.from_dict(teams_data, orient='index')
+    
+    # Initialize scores
+    
+    scores = {team: 0 for team in teams_data}
                         
