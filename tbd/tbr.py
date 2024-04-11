@@ -9,4 +9,4 @@ plt.show()
 
 # Calculate annualized return
 
-beginning_value = df['
+beginning_value = df['franchise_value'].iloc[0]
