@@ -5,4 +5,4 @@ df = pd.read_csv('value_over_time.csv')
 
 plt.title('Tampa Bay Rays: Team Value Since 2002')
 
-plt.show
+plt.show()
