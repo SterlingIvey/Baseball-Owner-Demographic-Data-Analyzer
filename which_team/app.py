@@ -60,6 +60,6 @@ def get_team_recommendation():
     
 # Run the questionnaire 
 
-team = get_team_recommendation
+team = get_team_recommendation()
 print(f"Based on your answers, you might enjoy rooting for {team}!")
                         
