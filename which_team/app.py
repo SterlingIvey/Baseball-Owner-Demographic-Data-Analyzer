@@ -30,10 +30,10 @@ def get_team_recommendation():
                            "Tampa Bay Rays": {"history": 2, "passionate": 2}, 
                            "Boston Red Sox": {"history": 1, "passionate": 1}, 
                            "Toronto Blue Jays": {"history": 2, "passionate": 2},
-                           "Chicago White Sox": {"history": 1},
-                           "Cleveland Guardians": {"history": 1},
-                           "Detroit Tigers": {"history": 1},
-                           "Kansas City Royals": {"history": 2},
+                           "Chicago White Sox": {"history": 1, "passionate": 2},
+                           "Cleveland Guardians": {"history": 1, "passionate": 2},
+                           "Detroit Tigers": {"history": 1, "passionate": 2},
+                           "Kansas City Royals": {"history": 2, "passionate": 2},
                            "Minnesota Twins": {"history": 1}
                         }
                         
