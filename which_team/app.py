@@ -29,8 +29,6 @@ def get_team_recommendation():
                            "New York Yankees": {"history": 1, "passionate": 1}, 
                            "Tampa Bay Rays": {"history": 2, "passionate": 2}, 
                            "Boston Red Sox": {"history": 1}, 
-                           "New York Yankees": {"history": 1}, 
-                           "Tampa Bay Rays": {"history": 2},
                            "Toronto Blue Jays": {"history": 2},
                            "Chicago White Sox": {"history": 1},
                            "Cleveland Guardians": {"history": 1},
