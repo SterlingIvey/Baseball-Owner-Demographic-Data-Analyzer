@@ -4,7 +4,12 @@ def get_team_recommendation():
     print("Welcome User! Which baseball team should you root for?")
     
     # Begin questions
-    questions = [{"question": "Are you a history buff?"}, {"question": "Where do you live?"}, {"question": "Are you passionate about other sports?"}, {"question": "Big drinker?"}, {"question": "Did you grow up playing baseball?"}, {"question": "Do you want to be able to own a piece of your team?"}]
+    questions = [{"question": "Are you a history buff?"}, 
+                 {"question": "Where do you live?"}, 
+                 {"question": "Are you passionate about other sports?"},
+                 {"question": "Big drinker?"},
+                 {"question": "Did you grow up playing baseball?"},
+                 {"question": "Do you want to be able to own a piece of your team?"}]
     # Team data and weightings
     teams_data = {"Team": ["New York Mets": {"history": 2}, 
                            "Atlanta Braves": {"history": 1}, 
