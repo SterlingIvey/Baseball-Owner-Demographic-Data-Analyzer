@@ -8,7 +8,7 @@ def get_team_recommendation():
                  {"question": "Are you passionate about other sports? (Yes/No)", "weight": {"Yes": 1, "No": 2}},
                  {"question": "Big drinker? (Yes/No)", "weight": {"Yes": 1, "No": 2}},
                  {"question": "Did you grow up playing baseball? (Yes/No)", "weight": {"Yes": 1, "No": 2}},
-                 {"question": "Do you want to be able to own a piece of your team? (Yes/No)", "weight": {"Yes: 1, "No": 2}}
+                 {"question": "Do you want to be able to own a piece of your team? (Yes/No)", "weight": {"Yes": 1, "No": 2}}
                 ]
     # Team data and weightings
     teams_data = {"Team":  "New York Mets": {"history": 2}, 
