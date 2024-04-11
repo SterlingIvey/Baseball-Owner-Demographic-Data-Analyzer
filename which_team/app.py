@@ -6,14 +6,13 @@ def get_team_recommendation():
     # Queetions and scoring logic
     questions = [{"question": "Are you a history buff? (Yes/No)", "weight": {"Yes": 1, "No": 2}}, 
                  {"question": "Are you passionate about other sports? (Yes/No)", "weight": {"Yes": 1, "No": 2}},
-                 {"question": "Big drinker? (Yes/No)", "weight": {"Yes": 1, "No": 2}},
                  {"question": "Did you grow up playing baseball? (Yes/No)", "weight": {"Yes": 1, "No": 2}},
                  {"question": "Do you want to be able to own a piece of your team? (Yes/No)", "weight": {"Yes": 1, "No": 2}}
                 ]
     # Team data and weightings
-    teams_data = {"Team":  "New York Mets": {"history": 2, "passionate": 1, "drinker": 2}, 
-                           "Atlanta Braves": {"history": 1, "passionate": 1, "drinker": 1}, 
-                           "Miami Marlins": {"history": 2, "passionate": 2, "drinker": 2}, 
+    teams_data = {"Team":  "New York Mets": {"history": 2, "passionate": 1, }, 
+                           "Atlanta Braves": {"history": 1, "passionate": 1, }, 
+                           "Miami Marlins": {"history": 2, "passionate": 2,}, 
                            "Philadelphia Phillies": {"history": 1, "passionate": 1, "drinker": 1}, 
                            "Washington Nationals": {"history": 2, "passionate": 2, "drinker": 1}, 
                            "Chicago Cubs": {"history": 1, "passionate": 1, "drinker": 1}, 
