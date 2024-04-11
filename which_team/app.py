@@ -30,4 +30,6 @@ def get_team_recommendation():
                            "Chicago White Sox": {"history": 1},
                            "Cleveland Guardians": {"history": 1},
                            "Detroit Tigers": {"history": 1},
+                           "Kansas City Royals": {"history": 2},
+                           "Minnesota Twins": {"history": 1}
                         
