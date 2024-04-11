@@ -13,7 +13,7 @@ def get_team_recommendation():
                 
     # Team data and weightings
     
-    teams_data = {"Team":  "New York Mets": {"history": 2, "passionate": 1, "iq": 1}, 
+    teams_data = {         "New York Mets": {"history": 2, "passionate": 1, "iq": 1}, 
                            "Atlanta Braves": {"history": 1, "passionate": 1, "iq": 2, "public": 1}, 
                            "Miami Marlins": {"history": 2, "passionate": 2, "iq": 2}, 
                            "Philadelphia Phillies": {"history": 1, "passionate": 1, "iq": 2}, 
