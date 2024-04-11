@@ -23,7 +23,7 @@ def get_team_recommendation():
                            "Arizona Diamondbacks": {"history": 2, "passionate": 2, "iq": 2},
                            "Colorado Rockies": {"history": 2, "passionate": 2, "iq": 2},
                            "San Diego Padres": {"history": 2, "passionate": 2, "iq": 2}, 
-                           "San Francisco Giants": {"history": 1, "passionate": 1, }, 
+                           "San Francisco Giants": {"history": 1, "passionate": 1, "iq": 1}, 
                            "Baltimore Orioles": {"history": 1, "passionate": 1, },
                            "New York Yankees": {"history": 1, "passionate": 1}, 
                            "Tampa Bay Rays": {"history": 2, "passionate": 2}, 
