@@ -53,5 +53,5 @@ def get_team_recommendation():
     # Determine recommended team
     
     recommended_team = max(scores, key=scores.get)
-    
+    return recommended_team
                         
