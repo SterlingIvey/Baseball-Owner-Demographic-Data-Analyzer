@@ -16,7 +16,7 @@ def get_team_recommendation():
                            "Philadelphia Phillies": {"history": 1, "passionate": 1, }, 
                            "Washington Nationals": {"history": 2, "passionate": 2, }, 
                            "Chicago Cubs": {"history": 1, "passionate": 1, }, 
-                           "Cincinnati Reds": {"history": 1, "passionate": 2, "drinker": 2}, 
+                           "Cincinnati Reds": {"history": 1, "passionate": 2, }, 
                            "Milwaukee Brewers": {"history": 1, "passionate": 2, "drinker": 1},
                            "Pittsburgh Pirates": {"history": 1, "passionate": 1, "drinker": 1}, 
                            "St Louis Cardinals": {"history": 1, "passionate": 1, "drinker": 2}, 
