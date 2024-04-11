@@ -36,3 +36,7 @@ def get_team_recommendation():
                            "Minnesota Twins": {"history": 1, "passionate": 2, "iq": 2}
                         }
                         
+    # Convert to Data Frame for easier manipulation
+    
+    df_teams = pd.DataFrame.from_dict(teams_data, orient='index')
+                        
