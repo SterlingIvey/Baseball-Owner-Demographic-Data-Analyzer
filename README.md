@@ -2,9 +2,9 @@
 <img alt="Static Badge" src="https://img.shields.io/badge/Python%20-%20version%203.12.3%20-%20%233776AB?logo=Python">
 <img alt="Static Badge" src="https://img.shields.io/badge/pandas%20-%20%23150458?logo=pandas">
 
-<h1>Baseball_Biz</h1>
+<h1>Biz_Ball</h1>
 
-Welcome to **Baseball_Biz**: Analyzing the Financial Scorecard of Baseball Franchises.
+Welcome to **Biz_Ball**: Analyzing the Financial Scorecard of Baseball Franchises.
 
 
 <h2>Overview</h2>
