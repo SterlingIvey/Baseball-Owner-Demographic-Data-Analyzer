@@ -12,4 +12,8 @@ def get_team_recommendation():
                            "Philadelphia Phillies": {"history": 1}, 
                            "Washington Nationals": {"history": 2}, 
                            "Chicago Cubs": {"history": 1}, 
-                           "Cincinnati Reds": {"history": 1}, "Milwaukee Brewers": {"history": 1}, "Pittsburgh Pirates": {"history": 1}, "St Louis Cardinals": {"history": 1}, "Arizona Diamondbacks": {"history": 2}, "Colorado Rockies": {"history": 2}, "San Diego Padres": {"history": 2}, "San Francisco Giants": {"history": 1}, "Baltimore Orioles": {"history": 1}, "New York Yankees": {"history": 1}, "Tampa Bay Rays": {"history": 2}, "Boston Red Sox": {"history": 1}, "New York Yankees": {"history": 1}, "Tampa Bay Rays": {"history": 2}, "Toronto Blue Jays": {
+                           "Cincinnati Reds": {"history": 1}, 
+                           "Milwaukee Brewers": {"history": 1},
+                           "Pittsburgh Pirates": {"history": 1}, 
+                           "St Louis Cardinals": {"history": 1}, 
+                           "Arizona Diamondbacks": {"history": 2}, "Colorado Rockies": {"history": 2}, "San Diego Padres": {"history": 2}, "San Francisco Giants": {"history": 1}, "Baltimore Orioles": {"history": 1}, "New York Yankees": {"history": 1}, "Tampa Bay Rays": {"history": 2}, "Boston Red Sox": {"history": 1}, "New York Yankees": {"history": 1}, "Tampa Bay Rays": {"history": 2}, "Toronto Blue Jays": {
