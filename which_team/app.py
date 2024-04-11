@@ -5,7 +5,7 @@ def get_team_recommendation():
     
     # Queetions and scoring logic
     questions = [{"question": "Are you a history buff? (Yes/No)", "weight": {"Yes": 1, "No": 2}}, 
-                 {"question": "Are you passionate about other sports?"},
+                 {"question": "Are you passionate about other sports? (Yes/No)", "weight": {"Yes": 1, "No": 2}},
                  {"question": "Big drinker?"},
                  {"question": "Did you grow up playing baseball?"},
                  {"question": "Do you want to be able to own a piece of your team?"}
